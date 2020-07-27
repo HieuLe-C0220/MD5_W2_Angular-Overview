@@ -4,12 +4,14 @@ import { FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HieuleComponent } from './hieule/hieule.component';
 import { FontSizeComponent } from './font-size/font-size.component';
+import { PetComponent } from './pet/pet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HieuleComponent,
-    FontSizeComponent
+    FontSizeComponent,
+    PetComponent
   ],
   imports: [
     BrowserModule,
