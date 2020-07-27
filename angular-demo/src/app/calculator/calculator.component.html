@@ -1,0 +1,26 @@
+<h2>Awesome Calculator</h2>
+<div>
+  <input type="number" class="form-input"
+         [value]="firstNumber" #first
+         (change)="onFirstChange(first.value)">
+  <select
+    class="form-input"
+    [value]="operator" #second
+    (change)="onSelectChange(second.value)">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+  <input type="number" class="form-input"
+         [(ngModel)]="secondNumber">
+</div>
+<br/>
+<div>
+  <button class="form-input" (click)="calculate()">
+    Thực thi
+  </button>
+</div>
+<div class="output">
+  {{output}}
+</div>

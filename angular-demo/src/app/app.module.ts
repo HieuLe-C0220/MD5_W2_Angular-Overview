@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { HieuleComponent } from './hieule/hieule.component';
 import { FontSizeComponent } from './font-size/font-size.component';
 import { PetComponent } from './pet/pet.component';
+import { CalculatorComponent } from './calculator/calculator.component';
+import { ColorPickerComponent } from './color-picker/color-picker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HieuleComponent,
     FontSizeComponent,
-    PetComponent
+    PetComponent,
+    CalculatorComponent,
+    ColorPickerComponent
   ],
   imports: [
     BrowserModule,
